@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     for snapshot in snapshots_sorted:
 
         print(snapshot)
-        if snapshot[2] == 'vol-099cc6ff1ce6bc10e':
+        if snapshot[2] == 'vol-xyz001':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -38,7 +38,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-0deb7c69aace940a5':
+        if snapshot[2] == 'vol-xyz002':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -64,7 +64,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-06906cce4f523bbc4':
+        if snapshot[2] == 'xyz003':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -90,7 +90,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-0b77ba1055cde48ac':
+        if snapshot[2] == 'xyz004':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -116,7 +116,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-0febbe3ff641f547d':
+        if snapshot[2] == 'xyz005':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -142,7 +142,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-0ba66804738267fd2':
+        if snapshot[2] == 'xyz0016':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
@@ -168,7 +168,7 @@ def lambda_handler(event, context):
             print(copy_response)
             break
     for snapshot in snapshots_sorted:
-        if snapshot[2] == 'vol-07306208033024ece':
+        if snapshot[2] == 'xyz0017':
             print('Copying Snapshot -> ' + snapshot[0])
 
             destination_client = boto3.client('ec2', region_name='ap-southeast-1')
