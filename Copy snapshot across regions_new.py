@@ -5,8 +5,8 @@ def lambda_handler(event, context):
     region_source = 'ap-southeast-2'
     client_source = boto3.client('ec2', region_name=region_source)
 
-    li = ['vol-099cc6ff1ce6bc10e', 'vol-0deb7c69aace940a5', 'vol-06906cce4f523bbc4',
-          'vol-0b77ba1055cde48ac', 'vol-0febbe3ff641f547d', 'vol-0ba66804738267fd2', 'vol-07306208033024ece']
+    li = ['vol-01', 'vol-02', 'vol-03',
+          'vol-04', 'vol-05', 'vol-06', 'vol-07']
 
     copylist = []
 
